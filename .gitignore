@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated outputs (uncomment if you do not want to version plots)
+# outputs/
+# confusion_matrix_catboost.png
+# roc_catboost.png
+
+# Secrets and local environment files
+.env
+.env.*
+
+# Note: Do not ignore the project CSV automatically. Only commit it if you have permission
+# to redistribute it and it is within GitHub's file-size limits.
